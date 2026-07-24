@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "AuthUserCreatedEventPayload",
+  "name": "AuthUserVerifiedEventPayload",
   "namespace": "kafkacontracts.auth",
   "fields": [
     {
@@ -12,18 +12,6 @@
     },
     {
       "name": "email",
-      "type": "string"
-    },
-    {
-      "name": "firstName",
-      "type": "string"
-    },
-    {
-      "name": "lastName",
-      "type": "string"
-    },
-    {
-      "name": "verificationCode",
       "type": "string"
     }
   ]
