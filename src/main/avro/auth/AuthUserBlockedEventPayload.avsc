@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "AuthUserBlockedEventPayload",
+  "namespace": "kafkacontracts.auth",
+  "fields": [
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ]
+}

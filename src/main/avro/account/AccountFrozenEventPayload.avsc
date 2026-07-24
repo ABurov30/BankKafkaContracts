@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "AccountFrozenEventPayload",
+  "namespace": "kafkacontracts.account",
+  "fields": [
+    {
+      "name": "accountId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}

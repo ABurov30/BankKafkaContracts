@@ -1,0 +1,54 @@
+{
+  "type": "record",
+  "name": "KafkaEvent",
+  "namespace": "kafkacontracts.common",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "eventType",
+      "type": "string"
+    },
+    {
+      "name": "schemaVersion",
+      "type": "string"
+    },
+    {
+      "name": "occurredAt",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "correlationId",
+      "type": ["null",{
+        "type": "string",
+        "logicalType": "uuid"
+      }],
+      "default": null
+    },
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "payload",
+      "type": [
+        "kafkacontracts.auth.AuthUserCreatedEventPayload",
+        "kafkacontracts.auth.AuthUserUnlockEventPayload",
+        "kafkacontracts.auth.AuthUserBlockedEventPayload",
+        "kafkacontracts.user.UserProfileCreatedEventPayload",
+        "kafkacontracts.user.UserProfileUnlockEventPayload",
+        "kafkacontracts.user.UserProfileBlockedEventPayload",
+        "kafkacontracts.account.AccountCreatedEventPayload",
+        "kafkacontracts.account.AccountFrozenEventPayload"
+      ]
+    }
+  ]
+}

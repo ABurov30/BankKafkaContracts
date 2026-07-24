@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "UserProfileUnlockEventPayload",
+  "namespace": "kafkacontracts.user",
+  "fields": [
+    {
+      "name": "userId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}

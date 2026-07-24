@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "name": "AccountCreatedEventPayload",
+  "namespace": "kafkacontracts.account",
+  "fields": [
+    {
+      "name": "accountId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}
