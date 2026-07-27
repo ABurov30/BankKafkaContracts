@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.burov</groupId>
-    <artifactId>KafkaContracts</artifactId>
-    <version>0.0.2</version>
+    <artifactId>kafka-contracts</artifactId>
+    <version>0.0.3</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -34,7 +34,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/ABurov30/BankKafkaContracts</url>
+            <url>https://maven.pkg.github.com/aburov30/bankkafkacontracts</url>
         </repository>
     </distributionManagement>
 
