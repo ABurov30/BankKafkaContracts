@@ -6,7 +6,8 @@
 
     <groupId>com.burov</groupId>
     <artifactId>KafkaContracts</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
@@ -28,6 +29,14 @@
             <version>1.12.0</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/ABurov30/BankKafkaContracts</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
