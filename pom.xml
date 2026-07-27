@@ -6,7 +6,7 @@
 
     <groupId>com.burov</groupId>
     <artifactId>KafkaContracts</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
