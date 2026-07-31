@@ -9,7 +9,8 @@ public enum AuthEventType {
     AUTH_USER_BLOCKED(KafkaTopics.AUTH_USER_BLOCKED, "v1"),
     AUTH_USER_UNLOCK(KafkaTopics.AUTH_USER_UNLOCK, "v1"),
     AUTH_USER_VERIFIED(KafkaTopics.AUTH_USER_VERIFIED, "v1"),
-    AUTH_USER_ROLE_CHANGED(KafkaTopics.AUTH_USER_ROLE_CHANGED, "v1");
+    AUTH_USER_ROLE_CHANGED(KafkaTopics.AUTH_USER_ROLE_CHANGED, "v1"),
+    AUTH_USER_FORGET_PASSWORD(KafkaTopics.AUTH_USER_FORGET_PASSWORD, "v1");
 
     private final String topic;
     private final String version;
