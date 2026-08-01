@@ -6,7 +6,8 @@ import lombok.Getter;
 @Getter
 public enum AccountEventType {
     ACCOUNT_CREATED(KafkaTopics.ACCOUNT_CREATED, "v1"),
-    ACCOUNT_FROZEN(KafkaTopics.ACCOUNT_FROZEN, "v1");
+    ACCOUNT_FROZEN(KafkaTopics.ACCOUNT_FROZEN, "v1"),
+    ACCOUNT_UNFROZEN(KafkaTopics.ACCOUNT_UNFROZEN, "v1");
 
     private final String topic;
     private final String version;
