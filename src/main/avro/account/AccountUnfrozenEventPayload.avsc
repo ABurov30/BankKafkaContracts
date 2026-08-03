@@ -9,6 +9,17 @@
         "type": "string",
         "logicalType": "uuid"
       }
+    },
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "accountNumber",
+      "type": "string"
     }
   ]
 }

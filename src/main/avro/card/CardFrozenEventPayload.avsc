@@ -1,0 +1,36 @@
+{
+  "type": "record",
+  "name": "CardFrozenEventPayload",
+  "namespace": "kafkacontracts.card",
+  "fields": [
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "accountId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "accountNumber",
+      "type": "string"
+    },
+    {
+      "name": "cardId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "cardNumber",
+      "type": "string"
+    }
+  ]
+}

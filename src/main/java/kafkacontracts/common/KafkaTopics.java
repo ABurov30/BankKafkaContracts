@@ -16,6 +16,10 @@ public final class KafkaTopics {
     public static final String ACCOUNT_FROZEN = "account.frozen";
     public static final String ACCOUNT_UNFROZEN = "account.unfrozen";
 
+    public static final String CARD_CREATED = "card.created";
+    public static final String CARD_FROZEN = "card.frozen";
+    public static final String CARD_UNFROZEN = "card.unfrozen";
+
     public static final String PUSH_NOTIFICATION_CREATED = "notification.push.created";
 
     private KafkaTopics() {

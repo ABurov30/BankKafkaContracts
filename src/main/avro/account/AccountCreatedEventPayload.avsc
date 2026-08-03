@@ -16,6 +16,10 @@
         "type": "string",
         "logicalType": "uuid"
       }
+    },
+    {
+      "name": "accountNumber",
+      "type": "string"
     }
   ]
 }

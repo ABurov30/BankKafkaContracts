@@ -47,7 +47,11 @@
         "kafkacontracts.user.UserProfileUnlockEventPayload",
         "kafkacontracts.user.UserProfileBlockedEventPayload",
         "kafkacontracts.account.AccountCreatedEventPayload",
-        "kafkacontracts.account.AccountFrozenEventPayload"
+        "kafkacontracts.account.AccountFrozenEventPayload",
+        "kafkacontracts.account.AccountUnfrozenEventPayload",
+        "kafkacontracts.card.CardCreatedEventPayload",
+        "kafkacontracts.card.CardFrozenEventPayload",
+        "kafkacontracts.card.CardUnfrozenEventPayload"
       ]
     }
   ]
