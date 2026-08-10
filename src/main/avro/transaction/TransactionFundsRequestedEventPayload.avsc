@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "TransactionFundsRequestedEventPayload",
+  "namespace": "kafkacontracts.account",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "targetAccountId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}

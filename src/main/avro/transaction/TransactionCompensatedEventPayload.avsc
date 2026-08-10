@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "TransactionCompensatedEventPayload",
+  "namespace": "kafkacontracts.account",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}

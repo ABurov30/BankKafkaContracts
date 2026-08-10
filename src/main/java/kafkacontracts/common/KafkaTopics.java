@@ -22,6 +22,11 @@ public final class KafkaTopics {
 
     public static final String PUSH_NOTIFICATION_CREATED = "notification.push.created";
 
+    public static final String TRANSACTION_FUNDS_REQUESTED ="transaction.funds.requested";
+    public static final String TRANSACTION_COMPLETED = "transaction.completed";
+    public static final String TRANSACTION_FAILED = "transaction.failed";
+    public static final String TRANSACTION_COMPENSATED = "transaction.compensated";
+
     private KafkaTopics() {
     }
 }

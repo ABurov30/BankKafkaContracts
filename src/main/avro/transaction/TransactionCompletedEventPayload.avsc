@@ -1,0 +1,34 @@
+{
+  "type": "record",
+  "name": "TransactionCompletedEventPayload",
+  "namespace": "kafkacontracts.account",
+  "fields": [
+    {
+      "name": "accountNumber",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": {
+        "type": "bytes",
+        "logicalType": "decimal",
+        "precision": 19,
+        "scale": 2
+      }
+    },
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "transactionId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}
