@@ -5,13 +5,13 @@ import lombok.Getter;
 
 @Getter
 public enum NotificationEventType {
-    PUSH_NOTIFICATION_CREATED(KafkaTopics.PUSH_NOTIFICATION_CREATED, "v1");
+  PUSH_NOTIFICATION_CREATED(KafkaTopics.PUSH_NOTIFICATION_CREATED, "v1");
 
-    private final String topic;
-    private final String version;
+  private final String topic;
+  private final String version;
 
-    NotificationEventType(String topic, String version) {
-        this.topic = topic;
-        this.version = version;
-    }
+  NotificationEventType(String topic, String version) {
+    this.topic = topic;
+    this.version = version;
+  }
 }
