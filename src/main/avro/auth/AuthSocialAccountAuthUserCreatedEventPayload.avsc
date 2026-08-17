@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "AuthSocialAccountAuthUserCreatedEventPayload",
+  "namespace": "kafkacontracts.auth",
+  "fields": [
+    {
+      "name": "authUserId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    }
+  ]
+}

@@ -7,6 +7,8 @@ public final class KafkaTopics {
   public static final String AUTH_USER_VERIFIED = "auth.user.verified";
   public static final String AUTH_USER_ROLE_CHANGED = "auth.user.role.changed";
   public static final String AUTH_USER_FORGET_PASSWORD = "auth.user.forget.password";
+  public static final String AUTH_SOCIAL_ACCOUNT_AUTH_USER_CREATED =
+      "auth.social.account.auth.user.created";
 
   public static final String USER_PROFILE_CREATED = "user.profile.created";
   public static final String USER_PROFILE_BLOCKED = "user.profile.blocked";
