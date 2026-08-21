@@ -20,6 +20,10 @@
     {
       "name": "accountNumber",
       "type": "string"
+    },
+    {
+      "name": "currency",
+      "type": "string"
     }
   ]
 }
