@@ -4,13 +4,12 @@
   "namespace": "kafkacontracts.account",
   "fields": [
     {
-      "name": "amount",
-      "type": {
-        "type": "bytes",
-        "logicalType": "decimal",
-        "precision": 19,
-        "scale": 2
-      }
+      "name": "amountMinorUnits",
+      "type": "long"
+    },
+    {
+      "name": "currency",
+      "type": "string"
     },
     {
       "name": "authUserId",
