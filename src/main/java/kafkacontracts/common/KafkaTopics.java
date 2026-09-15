@@ -17,10 +17,12 @@ public final class KafkaTopics {
   public static final String ACCOUNT_CREATED = "account.created";
   public static final String ACCOUNT_FROZEN = "account.frozen";
   public static final String ACCOUNT_UNFROZEN = "account.unfrozen";
+  public static final String ACCOUNT_HOLD_RELEASED_BY_TIME = "account.hold.released.by.time";
 
   public static final String CARD_CREATED = "card.created";
   public static final String CARD_FROZEN = "card.frozen";
   public static final String CARD_UNFROZEN = "card.unfrozen";
+  public static final String CARD_LIMIT_HOLD_RELEASED_BY_TIME = "card.limit.hold.released.by.time";
 
   public static final String PUSH_NOTIFICATION_CREATED = "notification.push.created";
 

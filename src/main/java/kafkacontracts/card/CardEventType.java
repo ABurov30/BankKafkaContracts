@@ -7,7 +7,8 @@ import lombok.Getter;
 public enum CardEventType {
   CARD_CREATED(KafkaTopics.CARD_CREATED, "v1"),
   CARD_FROZEN(KafkaTopics.CARD_FROZEN, "v1"),
-  CARD_UNFROZEN(KafkaTopics.CARD_UNFROZEN, "v1");
+  CARD_UNFROZEN(KafkaTopics.CARD_UNFROZEN, "v1"),
+  CARD_LIMIT_HOLD_RELEASED_BY_TIME(KafkaTopics.CARD_LIMIT_HOLD_RELEASED_BY_TIME, "v1");
 
   private final String topic;
   private final String version;

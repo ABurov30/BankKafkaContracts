@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "AccountHoldReleasedByTimeEventPayload",
+  "namespace": "kafkacontracts.card",
+  "fields": [
+    {
+      "name": "transactionId",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    }
+  ]
+}
