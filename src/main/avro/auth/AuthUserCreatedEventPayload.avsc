@@ -25,6 +25,14 @@
     {
       "name": "verificationCode",
       "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "role",
+      "type": "string"
     }
   ]
 }
