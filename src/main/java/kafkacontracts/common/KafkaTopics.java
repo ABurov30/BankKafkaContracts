@@ -30,6 +30,10 @@ public final class KafkaTopics {
   public static final String TRANSACTION_COMPLETED = "transaction.completed";
   public static final String TRANSACTION_FAILED = "transaction.failed";
   public static final String TRANSACTION_COMPENSATED = "transaction.compensated";
+  public static final String TRANSACTION_ACCOUNT_HOLD_COMPENSATION =
+      "transaction.account.hold.compensation";
+  public static final String TRANSACTION_CARD_LIMIT_HOLD_COMPENSATION =
+      "transaction.card.limit.hold.compensation";
 
   private KafkaTopics() {}
 }
