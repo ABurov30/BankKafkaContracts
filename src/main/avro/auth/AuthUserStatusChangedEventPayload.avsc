@@ -1,6 +1,6 @@
 {
   "type": "record",
-  "name": "AuthUserUnlockEventPayload",
+  "name": "AuthUserStatusChangedEventPayload",
   "namespace": "kafkacontracts.auth",
   "fields": [
     {
@@ -9,6 +9,14 @@
         "type": "string",
         "logicalType": "uuid"
       }
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "type": "long"
     },
     {
       "name": "email",

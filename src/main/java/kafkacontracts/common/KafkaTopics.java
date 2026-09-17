@@ -2,8 +2,7 @@ package kafkacontracts.common;
 
 public final class KafkaTopics {
   public static final String AUTH_USER_CREATED = "auth.user.created";
-  public static final String AUTH_USER_BLOCKED = "auth.user.blocked";
-  public static final String AUTH_USER_UNLOCK = "auth.user.unlock";
+  public static final String AUTH_USER_STATUS_CHANGED = "auth.status.changed";
   public static final String AUTH_USER_VERIFIED = "auth.user.verified";
   public static final String AUTH_USER_ROLE_CHANGED = "auth.user.role.changed";
   public static final String AUTH_USER_FORGET_PASSWORD = "auth.user.forget.password";
