@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "CacheInvalidationEventPayload",
+  "namespace": "kafkacontracts.cache",
+  "fields": [
+    {
+      "name": "keys",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}

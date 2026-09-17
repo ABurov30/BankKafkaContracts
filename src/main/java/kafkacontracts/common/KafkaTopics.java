@@ -33,5 +33,7 @@ public final class KafkaTopics {
   public static final String TRANSACTION_CARD_LIMIT_HOLD_COMPENSATION =
       "transaction.card.limit.hold.compensation";
 
+  public static final String CACHE_INVALIDATION = "cache.invalidation";
+
   private KafkaTopics() {}
 }
